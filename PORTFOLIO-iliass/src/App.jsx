@@ -1,17 +1,18 @@
 import React from 'react';
 
 import { About, Footer, Header, Skills, Testimonial, Work } from './container';
+import { Navbar } from './components';
 
 const App = () => {
   return (
-    <div>
-      <h1>iliass</h1>
-      <About />
-      <Footer />
+    <div className="app">
+      <Navbar />
       <Header />
-      <Skills/>
-      <Testimonial/>
-      <Work/>
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
     </div>
   );
 };
