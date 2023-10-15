@@ -5,10 +5,7 @@ import { urlFor, client } from '../../client';
 
 import './About.scss';
 
-
-
 const About = () => {
-
   const [abouts, setAbouts] = useState([]);
 
   useEffect(() => {
@@ -18,7 +15,6 @@ const About = () => {
       setAbouts(data);
     });
   }, []);
-
 
   return (
     <>
