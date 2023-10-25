@@ -1,9 +1,14 @@
 import React from 'react';
-import { BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs';
+import { BsTwitter, BsLinkedin, BsGithub, BsWhatsapp } from 'react-icons/bs';
 
 const SocialMedia = () => {
   return (
     <div className="app__social">
+      <div>
+        <a href="https://wa.me/2120634919581">
+        <BsWhatsapp />
+        </a>
+      </div>
       <div>
         <a href='https://x.com/IliassmedAffani?t=CMgvQegGVSY_cY897nXsZA&s=09'>
         <BsTwitter />
